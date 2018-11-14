@@ -8,14 +8,19 @@ import com.crm.TestBase.TestBase;
 
 public class DealsPage extends TestBase {
 	
-//	@FindBy(xapth="//")
+	@FindBy(xpath="//legend[contains(text(), 'Deal')]")
+	WebElement deallabel;
 	
 	
 	public DealsPage() {
 		PageFactory.initElements(driver, this);
 	}
 	
-
+	public boolean verifyDealltext(){
+		return deallabel.isDisplayed();
+	}
+	
+	
 	
 	
 

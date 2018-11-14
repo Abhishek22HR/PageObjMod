@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58378" started-at="2018-11-12T10:53:37Z" finished-at="2018-11-12T10:54:36Z">
+  <suite name="Default suite" duration-ms="33391" started-at="2018-11-14T10:55:46Z" finished-at="2018-11-14T10:56:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58378" started-at="2018-11-12T10:53:37Z" finished-at="2018-11-12T10:54:36Z">
-      <class name="com.crm.test.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.test.HomePageTest@754ba872]" name="setup" is-config="true" duration-ms="20857" started-at="2018-11-12T16:23:37Z" finished-at="2018-11-12T16:23:58Z">
+    <test name="Default test" duration-ms="33391" started-at="2018-11-14T10:55:46Z" finished-at="2018-11-14T10:56:19Z">
+      <class name="com.crm.test.DealsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.test.DealsPageTest@754ba872]" name="setup" is-config="true" duration-ms="31936" started-at="2018-11-14T16:25:46Z" finished-at="2018-11-14T16:26:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickonDealsLink()[pri:5, instance:com.crm.test.HomePageTest@754ba872]" name="clickonDealsLink" duration-ms="1472" started-at="2018-11-12T16:23:58Z" finished-at="2018-11-12T16:24:00Z">
+        <test-method status="PASS" signature="verifyDealText()[pri:1, instance:com.crm.test.DealsPageTest@754ba872]" name="verifyDealText" duration-ms="70" started-at="2018-11-14T16:26:18Z" finished-at="2018-11-14T16:26:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickonDealsLink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.test.HomePageTest@754ba872]" name="teardown" is-config="true" duration-ms="1392" started-at="2018-11-12T16:24:00Z" finished-at="2018-11-12T16:24:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.test.HomePageTest@754ba872]" name="setup" is-config="true" duration-ms="19011" started-at="2018-11-12T16:24:01Z" finished-at="2018-11-12T16:24:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clcikonNewDelasLink()[pri:6, instance:com.crm.test.HomePageTest@754ba872]" name="clcikonNewDelasLink" duration-ms="14161" started-at="2018-11-12T16:24:20Z" finished-at="2018-11-12T16:24:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clcikonNewDelasLink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.test.HomePageTest@754ba872]" name="teardown" is-config="true" duration-ms="1448" started-at="2018-11-12T16:24:34Z" finished-at="2018-11-12T16:24:36Z">
+        </test-method> <!-- verifyDealText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.test.DealsPageTest@754ba872]" name="teardown" is-config="true" duration-ms="1366" started-at="2018-11-14T16:26:18Z" finished-at="2018-11-14T16:26:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.crm.test.HomePageTest -->
+      </class> <!-- com.crm.test.DealsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
