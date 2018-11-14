@@ -1,0 +1,8 @@
+com\crm\pages\LoginPage.class
+com\crm\pages\ContactPage.class
+com\crm\utils\TestUtil.class
+com\crm\TestBase\TestBase.class
+com\crm\pages\DealsPage.class
+com\crm\pages\HomePage.class
+com\crm\utils\WebEventListener.class
+com\crm\pages\TaskPage.class
